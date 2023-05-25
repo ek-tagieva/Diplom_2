@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea6259b-6372-4c5e-ae8d-4bb36dd40ff7" name="Changes" comment="" />
+    <list default="true" id="5ea6259b-6372-4c5e-ae8d-4bb36dd40ff7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/RestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/DataIngredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/IngredientClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserLoginPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserRegistrationPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/order/CreateOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/order/GetOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/ChangingUserDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/CreateUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,12 +55,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.GetOrderTest.getOrderAnAuthorizedUser">
+    <configuration name="CreateOrderTest.createOrderWithAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.CreateOrderTest" />
+      <option name="METHOD_NAME" value="createOrderWithAuthorization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTest.createOrderWithInvalidHashIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.CreateOrderTest" />
+      <option name="METHOD_NAME" value="createOrderWithInvalidHashIngredients" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderTest.createOrderWithoutIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.CreateOrderTest" />
+      <option name="METHOD_NAME" value="createOrderWithoutIngredients" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderTest.getOrderAnAuthorizedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.GetOrderTest" />
+      <option name="METHOD_NAME" value="getOrderAnAuthorizedUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderTest.getOrderAuthorizedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.GetOrderTest" />
+      <option name="METHOD_NAME" value="getOrderAuthorizedUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetOrderTest.getOrderAnAuthorizedUser" />
+        <item itemvalue="JUnit.GetOrderTest.getOrderAuthorizedUser" />
+        <item itemvalue="JUnit.CreateOrderTest.createOrderWithInvalidHashIngredients" />
+        <item itemvalue="JUnit.CreateOrderTest.createOrderWithoutIngredients" />
+        <item itemvalue="JUnit.CreateOrderTest.createOrderWithAuthorization" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
