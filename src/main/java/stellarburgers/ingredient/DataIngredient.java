@@ -2,7 +2,6 @@ package stellarburgers.ingredient;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,5 +18,4 @@ public class DataIngredient {
     private String image_mobile;
     private String image_large;
     private int __v;
-
 }
