@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea6259b-6372-4c5e-ae8d-4bb36dd40ff7" name="Changes" comment="" />
+    <list default="true" id="5ea6259b-6372-4c5e-ae8d-4bb36dd40ff7" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/AuthorizedUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/NotAuthorizedUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/DataIngredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/DataIngredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/IngredientClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/ingredient/IngredientClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/order/OrderPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserLoginPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserLoginPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserRegistrationPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stellarburgers/user/UserRegistrationPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stellarburgers/order/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/order/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stellarburgers/order/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/order/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stellarburgers/user/ChangingUserDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stellarburgers/user/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stellarburgers/user/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stellarburgers/user/LoginUserTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,12 +54,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GetOrderTest">
+    <configuration name="CreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.CreateOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.user" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.user.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.order" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.order.GetOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.user" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.user.LoginUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotAuthorizedUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stellarburgers.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stellarburgers.user" />
+      <option name="MAIN_CLASS_NAME" value="stellarburgers.user.NotAuthorizedUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetOrderTest" />
+        <item itemvalue="JUnit.CreateOrderTest" />
+        <item itemvalue="JUnit.NotAuthorizedUserTest" />
+        <item itemvalue="JUnit.LoginUserTest" />
+        <item itemvalue="JUnit.CreateUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +161,18 @@
       <option name="presentableId" value="Default" />
       <updated>1684494261870</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685005384621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685005384621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
